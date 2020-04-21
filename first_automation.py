@@ -22,8 +22,8 @@ if repo_option == 'y':
     repo_name_entry = driver.find_element_by_xpath('//*[@id="repository_name"]')
     repo_name_entry.send_keys(repo_name)
     #Creating the repository
-    create_repo = driver.find_element_by_xpath('//*[@id="new_repository"]/div[3]/button')
-    create_repo.click()
+    create_repo = driver.find_element_by_css_selector('#new_repository > div.js-with-permission-fields > button')
+    create_repo.submit()
 elif repo_option == 'n':
     exit()
 
