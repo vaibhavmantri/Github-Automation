@@ -8,7 +8,7 @@
  #### For Windows:- https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe
  #### For Mac:- https://www.python.org/downloads/release/python-382/
 
-##Prerequisites
+## Prerequisites
 ```
 npm install selenium
 ```
