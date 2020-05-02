@@ -8,7 +8,7 @@ driver.get("https://github.com/login")
     #Typing username
 username = input("Enter the Email-Id/Username : ")
 usernamebox = driver.find_element_by_xpath('//*[@id="login_field"]')
-usernamebox.send_keys(unsername)
+usernamebox.send_keys(username)
     #typing password
 password = input("Enter the Password : ")
 passwordbox = driver.find_element_by_xpath('//*[@id="password"]')
