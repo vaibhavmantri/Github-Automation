@@ -8,7 +8,7 @@ driver.get("https://github.com/login")
     #Typing username
 username = input("Enter the Email-Id/Username : ")
 usernamebox = driver.find_element_by_xpath('//*[@id="login_field"]')
-usernamebox.send_keys(username)
+usernamebox.send_keys(usernamebox)
     #typing password
 password = input("Enter the Password : ")
 passwordbox = driver.find_element_by_xpath('//*[@id="password"]')
@@ -33,10 +33,10 @@ if repo_option == 'y':
         public_button  = driver.find_elements_by_xpath('//*[@id="repository_visibility_private"]') 
         public_button.click()
     #Adding README.md file
-    add_readme = driver.find_elements_by_id('repository_auto_init')
-    add_readme.click()
+    # addreadme = driver.find_elements_by_id('repository_auto_init')
+    # addreadme.click()
     #Creating the repository
-    create_repo = driver.find_element_by_xpath('//*[@id="repository_auto_init"]')
+    create_repo = driver.find_element_by_id('repository_auto_init')
     create_repo.click()
 elif repo_option == 'n':
     exit()
