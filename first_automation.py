@@ -36,7 +36,7 @@ if repo_option == 'y':
     add_readme = driver.find_elements_by_id('repository_auto_init')
     add_readme.click()
     #Creating the repository
-    create_repo = driver.find_element_by_css_selector('#new_repository > div.js-with-permission-fields > button')
+    create_repo = driver.find_element_by_xpath('//*[@id="repository_auto_init"]')
     create_repo.click()
 elif repo_option == 'n':
     exit()
