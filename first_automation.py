@@ -1,5 +1,6 @@
 import sys
 import os
+import subprocess
 from selenium import webdriver
 driver = webdriver.Chrome()
 driver.get("https://github.com/login")
@@ -8,7 +9,7 @@ driver.get("https://github.com/login")
     #Typing username
 username = input("Enter the Email-Id/Username : ")
 usernamebox = driver.find_element_by_xpath('//*[@id="login_field"]')
-usernamebox.send_keys(usernamebox)
+usernamebox.send_keys(username)
     #typing password
 password = input("Enter the Password : ")
 passwordbox = driver.find_element_by_xpath('//*[@id="password"]')
@@ -17,7 +18,7 @@ loginbutton = driver.find_element_by_xpath('//*[@id="login"]/form/div[4]/input[9
 loginbutton.click()
     #Creating a new repo button
 repo_option = input(("Do you wish to create a new Repo? [y] for yes and [n] for no : "))
-if repo_option == 'y':
+if repo_option == 'y' or repo_option == 'yes' or repo_option == 'Yes' or repo_option == 'YES':
     new_repo_box = driver.find_element_by_xpath('/html/body/div[4]/div/aside[1]/div[2]/div[1]/div/h2/a')
     new_repo_box.click()
         #Writing name of repo
@@ -32,14 +33,17 @@ if repo_option == 'y':
     elif pub_pri_option == "public" or pub_pri_option == "Public":
         public_button  = driver.find_elements_by_xpath('//*[@id="repository_visibility_private"]') 
         public_button.click()
-    #Adding README.md file
-    # addreadme = driver.find_elements_by_id('repository_auto_init')
-    # addreadme.click()
-    #Creating the repository
-    create_repo = driver.find_element_by_id('repository_auto_init')
-    create_repo.click()
-elif repo_option == 'n':
+    # create_repo = driver.find_element_by_id('repository_auto_init')
+    # create_repo.click()
+    confirm_repo = driver.find_element_by_xpath('//*[@id="new_repository"]/div[3]/button')
+    confirm_repo.submit()
+
+elif repo_option == 'n' or repo_option == 'no' or repo_option == 'No' or repo_option == 'NO':
     exit()
-
-    # <input type="checkbox" value="1" name="repository[auto_init]" id="repository_auto_init">
-
+subprocess.call(['C:\Program Files\Git\git-bash.exe'])
+os.system()
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git remote add origin https://github.com/vaibhavmantri1/+'{repo_name}+'.git'
+# git push -u origin master
