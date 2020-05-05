@@ -11,7 +11,7 @@
  sudo apt-get update
  sudo apt-get install python3.7
  ```
- ## Procedure
+ ## Running
 <h4>1. Run Command prompt as Administrator and run the following command.</h4>
 
 <b>For Windows</b>
