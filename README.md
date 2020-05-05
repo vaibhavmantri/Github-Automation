@@ -7,8 +7,21 @@
  <b>Python :- </b>
  #### For Windows:- https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe
  #### For Mac:- https://www.python.org/downloads/release/python-382/
-
-## Prerequisites
+## Procedure
+1. Run Command prompt as Administrator and run the following command
 ```
-npm install selenium
+pip install selenium
+```
+2. Clone the repository
+```
+https://github.com/vaibhavmantri1/Github-Automation.git
+```
+3. Now run command prompt or powershell on the folder and run the following command.
+<b>For Windows</b>
+```
+python application.py
+```
+<b>For Linux/Mac</b>
+```
+python3 application.py
 ```
