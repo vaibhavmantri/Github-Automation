@@ -13,7 +13,7 @@
 ```
 pip install selenium
 ```
-<b> For Linux/Mac</b>
+<b>For Linux/Mac</b>
 ```
 sudo pip install selenium
 ```
