@@ -49,9 +49,9 @@ python3 application.py
 
 
 
-##Libraries
+## Libraries
 https://pypi.org/project/selenium/
 https://docs.python.org/3/library/tk.html
 
-#Todo
+## Todo
 -<h4>Add commands for gitbash</h4>
