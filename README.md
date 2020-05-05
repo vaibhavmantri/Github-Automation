@@ -13,7 +13,7 @@
 ```
 pip install selenium
 ```
-<br><b>For Linux/Mac</b>
+<b>For Linux/Mac</b>
 ```
 sudo pip install selenium
 ```
@@ -26,7 +26,7 @@ https://github.com/vaibhavmantri1/Github-Automation.git
 ```
 python application.py
 ```
-<br><b>For Linux/Mac</b>
+<b>For Linux/Mac</b>
 ```
 python3 application.py
 ```
