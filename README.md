@@ -23,7 +23,8 @@ sudo pip install selenium
 https://github.com/vaibhavmantri1/Github-Automation.git
 ```
 3. Now run command prompt or powershell on the folder and run the following command.
-<br><b>For Windows</b>
+
+<b>For Windows</b>
 ```
 python application.py
 ```
