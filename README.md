@@ -19,9 +19,9 @@ pip install selenium
 sudo pip install selenium
 ```
 <h4>2. Clone the repository.</h4>
-```
+
 https://github.com/vaibhavmantri1/Github-Automation.git
-```
+
 <h4>3. Now run command prompt or powershell on the folder and run the following command.</h4>
 
 <b>For Windows</b>
