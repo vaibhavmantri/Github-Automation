@@ -26,6 +26,7 @@ https://github.com/vaibhavmantri1/Github-Automation.git
 ```
 python application.py
 ```
+<br>
 <b>For Linux/Mac</b>
 ```
 python3 application.py
