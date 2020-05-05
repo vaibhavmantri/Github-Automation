@@ -9,7 +9,8 @@
  #### For Mac:- https://www.python.org/downloads/release/python-382/
  ## Procedure
 1. Run Command prompt as Administrator and run the following command.
-<br><br><b>For Windows</b>
+
+<b>For Windows</b>
 ```
 pip install selenium
 ```
