@@ -5,7 +5,7 @@
  ## Demo
  <h4>Video:
  
- <h4>Images</h4>
+ <h4>Images:</h4>
  <img src = "images/signing_in.png">
  
  ## Requirements
