@@ -57,7 +57,7 @@ python3 application.py
 
 
 ## Libraries
-https://pypi.org/project/selenium/
+https://pypi.org/project/selenium/ <br>
 https://docs.python.org/3/library/tk.html
 
 ## Todo
