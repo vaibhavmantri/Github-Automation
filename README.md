@@ -37,3 +37,5 @@ python application.py
 ```
 python3 application.py
 ```
+
+<img src = "images/signing_in.png">
