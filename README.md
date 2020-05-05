@@ -9,11 +9,11 @@
  #### For Mac:- https://www.python.org/downloads/release/python-382/
 ## Procedure
 1. Run Command prompt as Administrator and run the following command.
-<br><b>For Windows</b>
+<br><br><b>For Windows</b>
 ```
 pip install selenium
 ```
-<b>&nbspFor Linux/Mac</b>
+<b>For Linux/Mac</b>
 ```
 sudo pip install selenium
 ```
@@ -22,7 +22,7 @@ sudo pip install selenium
 https://github.com/vaibhavmantri1/Github-Automation.git
 ```
 3. Now run command prompt or powershell on the folder and run the following command.
-<br><b>For Windows</b>
+<br><br><b>For Windows</b>
 ```
 python application.py
 ```
