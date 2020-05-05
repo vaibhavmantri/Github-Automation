@@ -7,7 +7,10 @@
  ## Requirements
  <b>Python :- </b>
  #### For Windows:- https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe
- #### For Mac:- https://www.python.org/downloads/release/python-382/
+ #### For Mac:- 
+ ```
+ brew install python
+ ```
  #### For Linux:- 
  ```
  sudo apt-get update
