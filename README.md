@@ -7,6 +7,11 @@
  <b>Python :- </b>
  #### For Windows:- https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe
  #### For Mac:- https://www.python.org/downloads/release/python-382/
+ #### For Linux:- 
+ ```
+ sudo apt-get update
+ sudo apt-get install python3.7
+ ```
  ## Procedure
 <h4>1. Run Command prompt as Administrator and run the following command.</h4>
 
