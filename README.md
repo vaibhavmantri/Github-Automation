@@ -43,15 +43,15 @@ https://github.com/vaibhavmantri1/Github-Automation.git
 
 <b>For Windows</b>
 ```
-python application.py
+python first_automation.py
 ```
 <b>For Linux/Mac</b>
 ```
-python3 application.py
+python3 first_automation.py
 ```
 <b>For MacOS</b>
 ```
-python3 application.py
+python3 first_automation.py
 ```
 
 
